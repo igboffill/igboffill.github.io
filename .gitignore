@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/freecodecamp/random-qoute-machine/node_modules
+/freecodecamp/random-qoute-machine/.pnp
+/freecodecamp/random-qoute-machine/.pnp.js
+
+# testing
+/freecodecamp/random-qoute-machine/coverage
+
+# production
+/freecodecamp/random-qoute-machine//build
+
+# misc
+/freecodecamp/random-qoute-machine/.DS_Store
+/freecodecamp/random-qoute-machine/.env.local
+/freecodecamp/random-qoute-machine/.env.development.local
+/freecodecamp/random-qoute-machine/.env.test.local
+/freecodecamp/random-qoute-machine/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
