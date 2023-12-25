@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --text:#EFF7FF;
+    --welcome:#E55934;
+    --work:#4E878C;
+    --contact:#444054;
+  }
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body{
+    color:var(--text);
+    background-color: #2374AB;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.chart-container{
+  position: relative;
+}
+
+.tooltip{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: max-content;
+  background: #231651;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.tooltip-label{
+  font-weight: 500;
+}
+
+.tick{
+  font-size: 0.8rem;
+}
+
+.bar:hover{
+  fill:#EFF7FF;
+}
