@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 100vh;
+    padding-inline: 10px;
+    grid-template-rows: min-content auto;
+}
+
+.wrapper h1 {
+    grid-column: 1 / -1;
+}
+
+.definition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 10px;
+}
+
+#copy-icon {
+    height: 20px;
+    width: 20px;
+    background-color: #e5e9f3;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.big-label {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 700;
+    margin-block: 10px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#source-label,
+#source {
+    flex-grow: 1;
+}
+
+#keep-breaks-label {
+    flex-direction: row;
+    align-items: center;
+}
+
+#enter-btn {
+    width: 300px;
+    align-self: center;
+    margin: 16px;
+}
+
+.result-wrapper {
+    overflow: auto;
+    flex-grow: 1;
+    border: 1px solid gray;
+}
+
+.result {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-title {
+    grid-column: 1 / -1;
+}
+
+#copy-icon {
+    height: 20px;
+    width: 20px;
+    background-color: #e5e9f3;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
